@@ -15,7 +15,7 @@ node('node') {
             print "Environment will be : ${env.NODE_ENV}"
             echo 'test'
         
-       stage 'Build Docker'
+       stage 'Build'
 
             echo 'build'
 
